@@ -1,0 +1,146 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #4e4c4c;
+}
+nav {
+  background: #000;
+  color: #fff;
+  height: 50px;
+}
+nav .wrapper {
+  max-width: 900px;
+  padding: 5px;
+  margin: auto;
+  background: #000;
+}
+nav .wrapper h1 {
+  display: block;
+  padding: 10px 5px;
+  float: left;
+}
+nav .wrapper h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+nav .wrapper ul {
+  float: right;
+  list-style-type: none;
+}
+nav .wrapper ul li {
+  padding: 10px 5px;
+  margin-left: 10px;
+  float: left;
+}
+nav .wrapper ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+/* body */
+.wrapper {
+  max-width: 900px;
+  text-align: center;
+  padding: 5px;
+  margin: auto;
+  background-color: #fff;
+}
+.intro {
+  padding: 10px;
+}
+.intro h1 {
+  text-align: center;
+}
+.intro p {
+  padding: 10px;
+  text-align: center;
+}
+.clear {
+  clear: both;
+}
+.categories {
+  margin-top: 10px;
+  padding: 10px;
+}
+.categories .cat-title h4 {
+  text-align: center;
+}
+.categorie .cat-body {
+  width: 100%;
+}
+.categories .cat-body > div {
+  margin: 5px;
+  width: 23.5%;
+  height: 200px;
+  background-color: #d6d6d6;
+  float: left;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 200px;
+}
+
+/* sign up */
+.sign-up {
+  width: 80%;
+  margin: auto;
+}
+.sign-up h2 {
+  text-align: center;
+  margin: 10px;
+}
+.sign-up form {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.sign-up form input {
+  width: 96%;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  padding: 5px;
+}
+.sign-up form button {
+  border: 0;
+  display: block;
+  margin-top: 10px;
+  margin: left;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Login */
+/* sign up */
+.log-in {
+  width: 80%;
+  margin: auto;
+}
+.log-in h2 {
+  text-align: center;
+  margin: 10px;
+}
+.log-in form {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+.log-in form input {
+  width: 96%;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  padding: 5px;
+}
+.log-in form button {
+  border: 0;
+  display: block;
+  margin-top: 10px;
+  margin: left;
+  padding: 10px;
+  cursor: pointer;
+}
